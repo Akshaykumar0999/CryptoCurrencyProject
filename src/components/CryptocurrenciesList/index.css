@@ -1,0 +1,80 @@
+/* Write your CSS code here */
+.List-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+}
+.image {
+  height: 30%;
+  width: 85%;
+}
+.table-container {
+  width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid #00e7ff;
+}
+.un-order-list {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.titles-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #092e33;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.coin-type {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  width: 40%;
+  text-align: left;
+}
+
+.USD {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  width: 30%;
+  text-align: right;
+}
+.EURO {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  width: 30%;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 40%;
+  }
+}

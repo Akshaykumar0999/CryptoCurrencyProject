@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.titles-card-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.coin-type-2 {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  width: 40%;
+}
+
+.USD-2 {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: right;
+  width: 30%;
+}
+.EURO-2 {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: right;
+  width: 30%;
+}
+.currency-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+.card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+  padding-left: 8px;
+}
